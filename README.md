@@ -12,7 +12,7 @@ Objetivos
    
 ## Links
 > HTML Básico
-https://victorhreinert.github.io/Udemy-gh-pages/
+https://victorhreinert.github.io/gh-pages-html/
 
 
     
