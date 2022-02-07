@@ -1,5 +1,5 @@
 # Udemy-gh-pages
-- __[dinamic-web pages](https://github.com/victorhreinert/gh-pages-html/tree/gh-pages)__ - próposito é criar pagina dinâmica com html/css/js no github.
+- __[dinamic-web pages](https://victorhreinert.github.io/gh-pages-html/)__ - próposito é criar pagina dinâmica com html/css/js no github.
 
 
 Objetivos
@@ -12,7 +12,6 @@ Objetivos
    
 ## Links
 > HTML Básico
-https://github.com/victorhreinert/gh-pages-html/tree/gh-pages
-
+https://victorhreinert.github.io/gh-pages-html/
 
     
