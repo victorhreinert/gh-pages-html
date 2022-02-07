@@ -1,5 +1,5 @@
 # Udemy-gh-pages
-- __[dinamic-web pages](https://nodeca.github.io/pica/demo/)__ - próposito é criar pagina dinâmica com html/css/js no github.
+- __[dinamic-web pages](https://victorhreinert.github.io/Udemy-gh-pages/) - próposito é criar pagina dinâmica com html/css/js no github.
 
 
 Objetivos
