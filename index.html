@@ -8,19 +8,36 @@
   </head>
 
   <body>
+    <h2>Validations</h2>
+    <section>
+      <hr width="36%" align="left" />
+      <!-- para conectar os marcadores radio o nome(name) tem que ser o mesmo-->
+      <!-- marcadores tipo checkbox-->
+      <label for="bot">Im not a bot</label>
+      <input type="radio" name="videogame" id="bot" required />
+
+      <label for="sign-up">Already Sign</label>
+      <input type="radio" name="videogame" id="sign-up" required />
+
+      <label for="new-user">New User</label>
+      <input type="radio" name="videogame" id="new-user" required />
+      <button>Check-up</button>
+      <hr width="36%" align="left" />
+    </section>
+
     <h2>Sign up account</h2>
     <a href=""> For more discription </a>
     <section>
       <form action="">
         <hr width="36%" align="left" />
         <p>
-          <label for="name">Enter first name:</label>
+          <label for="name"> First Name:</label>
           <!-- required um atributo necessário e importante do dia a dia do dev front. -->
           <!--fará com o que o botão só enviará os dados ao servidor preenchido o campo com os dados necessario.-->
           <input
             type="text"
             id="name"
-            placeholder="Fisrt name"
+            placeholder="Fisrt Name"
             name="id-name"
             required
           />
@@ -52,11 +69,11 @@
           <!-- required para email será a obrigatoriedade do @ -->
         </p>
         <p>
-          <label for="url-id">URL:</label>
+          <label for="id-password">Password:</label>
           <input
-            type="url"
+            type="password"
             id="url-id"
-            placeholder="Url"
+            placeholder="Password"
             name="url"
             required
             min="5"
