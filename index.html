@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Git</title>
+    <meta charset="UTF-8" />
+    <!--  <h1>Validations - HTML requirement</h1> -->
+  </head>
+
+  <body>
+    <h2>Validations</h2>
+
+    <section>
+      <hr width="36%" align="left" />
+      <!-- para conectar os marcadores radio o nome(name) tem que ser o mesmo-->
+      <!-- marcadores tipo checkbox-->
+      <label for="bot">Noob</label>
+      <input type="radio" name="videogame" id="bot" required />
+
+      <label for="sign-up">Pro</label>
+      <input type="radio" name="videogame" id="sign-up" required />
+
+      <label for="new-user">Expert</label>
+      <input type="radio" name="videogame" id="new-user" required />
+      <button>Check-up</button>
+      <hr width="36%" align="left" />
+    </section>
+
+    <li>
+      O <strong>corpo</strong> é conteúdo que aparecerá no corpo da página
+    </li>
+    <ol>
+      <li><strong>ESSE CONTEUDO SERÁ IMPORTANTE</strong></li>
+      <li>boilerpalte</li>
+      <li>ESSE SERÁ SEU MANTRA!!</li>
+      <li>HTML SKELETON</li>
+    </ol>
+
+    <h4>
+      <strong><li>REVISÃO</li></strong>
+    </h4>
+    <ol>
+      <li>DOCTYPE html</li>
+
+      <li>html lang="en" e html-> html</li>
+
+      <li>head -> /head</li>
+
+      <li>body -> body</li>
+
+      <li>html-> html</li>
+    </ol>
+
+    <h3>Escolha seu objetivo</h3>
+    <!-- selecionar opções, cria uma lista que deve selecionar-->
+    <section>
+      <label for="goals-select">Choose your plan:</label>
+      <select name="goals" id="goals-select">
+        <option value="">--Please choose an option</option>
+        <option value="full">Full-Stack</option>
+        <!-- pré selecionado-->
+        <option value="Front" selected>Front-end</option>
+        <option value="Back">Back-end</option>
+        <option value="mobile">Mobile-dev</option>
+        <option value="machine">Machine-Learning</option>
+        <option value="games">Games-dev</option>
+      </select>
+
+      <hr width="36%" align="left" />
+      <label for="goals-age">How much dev experience you want:</label>
+      <!-- no tipo de range voce pode controlar o minimo e maximo as quantidade de casa que irá pular-->
+      <!-- e valor qual começará com o value-->
+      <input
+        type="range"
+        id="goals-age"
+        min="1"
+        max="30"
+        step="1"
+        value="1"
+        name="goals_age"
+      />
+      <button>submit</button>
+    </section>
+    <hr width="36%" align="left" />
+
+    <h2>O <strong>HEAD </strong></h2>
+    <li>cabeçario dentro de html</li>
+
+    <h3>O que significa a tag meta HTML?</h3>
+    <li>
+      O elemento<i> HTML</i> <strong>meta</strong> define qualquer informação de
+      <br />
+      metadados que não podem ser definidos por outros elementos HTML.
+    </li>
+
+    <h4>HTML Title</h4>
+    <li>
+      O tag <strong>title</strong> o nome que aparecerá na aba no browser o
+      título
+    </li>
+
+    <h2>Sign up account</h2>
+    <a href=""> For more discription </a>
+    <section>
+      <form action="">
+        <hr width="36%" align="left" />
+        <p>
+          <label for="name"> First Name:</label>
+          <!-- required um atributo necessário e importante do dia a dia do dev front. -->
+          <!--fará com o que o botão só enviará os dados ao servidor preenchido o campo com os dados necessario.-->
+          <input
+            type="text"
+            id="name"
+            placeholder="Fisrt Name"
+            name="id-name"
+            required
+          />
+        </p>
+        <p>
+          <label for="user.valid">Username:</label>
+          <input
+            type="text"
+            id="user.valid"
+            name="username"
+            placeholder="Username"
+            required
+            minlength="3"
+            maxlength="10"
+          />
+          <!-- required para username será de 3 caractere conforme definido no input-->
+        </p>
+        <p>
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="e-mail"
+            min="5"
+            maxlength="25"
+            required
+            placeholder="E-mail"
+          />
+          <!-- required para email será a obrigatoriedade do @ -->
+        </p>
+        <p>
+          <label for="id-password">Password:</label>
+          <input
+            type="password"
+            id="url-id"
+            placeholder="Password"
+            name="url"
+            required
+            min="5"
+          />
+          <!-- required url é "http:www.(...).com" -->
+        </p>
+        <hr align="left" width="36%" />
+        <p>
+          <button>Submit</button>
+        </p>
+      </form>
+    </section>
+  </body>
+</html>
