@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="pt-br">
   <head>
-    <title>Git</title>
     <meta charset="UTF-8" />
-    <!--  <h1>Validations - HTML requirement</h1> -->
-  </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
 
+    <title>HTML</title>
+  </head>
   <body>
     <h2>Validations</h2>
-
-    <section>
-      <hr width="36%" align="left" />
+    <section class="validation">
+      <hr />
       <!-- para conectar os marcadores radio o nome(name) tem que ser o mesmo-->
       <!-- marcadores tipo checkbox-->
       <label for="bot">Noob</label>
@@ -23,37 +23,39 @@
       <label for="new-user">Expert</label>
       <input type="radio" name="videogame" id="new-user" required />
       <button>Check-up</button>
-      <hr width="36%" align="left" />
+      <hr />
     </section>
 
-    <li>
-      O <strong>corpo</strong> é conteúdo que aparecerá no corpo da página
-    </li>
-    <ol>
-      <li><strong>ESSE CONTEUDO SERÁ IMPORTANTE</strong></li>
-      <li>boilerpalte</li>
-      <li>ESSE SERÁ SEU MANTRA!!</li>
-      <li>HTML SKELETON</li>
-    </ol>
+    <section class="text1">
+      <li>
+        O <strong>corpo</strong> é conteúdo que aparecerá no corpo da página
+      </li>
+      <ol>
+        <li><strong>ESSE CONTEUDO SERÁ IMPORTANTE</strong></li>
+        <li>boilerpalte</li>
+        <li>ESSE SERÁ SEU MANTRA!!</li>
+        <li>HTML SKELETON</li>
+      </ol>
 
-    <h4>
-      <strong><li>REVISÃO</li></strong>
-    </h4>
-    <ol>
-      <li>DOCTYPE html</li>
+      <h4>
+        <strong><li>REVISÃO</li></strong>
+      </h4>
+      <ol>
+        <li>DOCTYPE html</li>
 
-      <li>html lang="en" e html-> html</li>
+        <li>html lang="en" e html-> html</li>
 
-      <li>head -> /head</li>
+        <li>head -> /head</li>
 
-      <li>body -> body</li>
+        <li>body -> body</li>
 
-      <li>html-> html</li>
-    </ol>
+        <li>html-> html</li>
+      </ol>
+    </section>
 
     <h3>Escolha seu objetivo</h3>
     <!-- selecionar opções, cria uma lista que deve selecionar-->
-    <section>
+    <section class="plan">
       <label for="goals-select">Choose your plan:</label>
       <select name="goals" id="goals-select">
         <option value="">--Please choose an option</option>
@@ -66,7 +68,7 @@
         <option value="games">Games-dev</option>
       </select>
 
-      <hr width="36%" align="left" />
+      <hr />
       <label for="goals-age">How much dev experience you want:</label>
       <!-- no tipo de range voce pode controlar o minimo e maximo as quantidade de casa que irá pular-->
       <!-- e valor qual começará com o value-->
@@ -81,29 +83,31 @@
       />
       <button>submit</button>
     </section>
-    <hr width="36%" align="left" />
+    <hr />
+    <section class="text2">
+      <h3>O <strong>HEAD </strong></h3>
+      <li>cabeçario dentro de html</li>
 
-    <h2>O <strong>HEAD </strong></h2>
-    <li>cabeçario dentro de html</li>
+      <h3>O que significa a tag meta HTML?</h3>
+      <li>
+        O elemento<i> HTML</i> <strong>meta</strong> define qualquer informação
+        de
+        <br />
+        metadados que não podem ser definidos por outros elementos HTML.
+      </li>
 
-    <h3>O que significa a tag meta HTML?</h3>
-    <li>
-      O elemento<i> HTML</i> <strong>meta</strong> define qualquer informação de
-      <br />
-      metadados que não podem ser definidos por outros elementos HTML.
-    </li>
-
-    <h4>HTML Title</h4>
-    <li>
-      O tag <strong>title</strong> o nome que aparecerá na aba no browser o
-      título
-    </li>
+      <h4>HTML Title</h4>
+      <li>
+        O tag <strong>title</strong> o nome que aparecerá na aba no browser o
+        título
+      </li>
+    </section>
 
     <h2>Sign up account</h2>
     <a href=""> For more discription </a>
-    <section>
-      <form action="">
-        <hr width="36%" align="left" />
+    <hr />
+    <section class="login">
+      <form class="form" action="">
         <p>
           <label for="name"> First Name:</label>
           <!-- required um atributo necessário e importante do dia a dia do dev front. -->
@@ -154,11 +158,11 @@
           />
           <!-- required url é "http:www.(...).com" -->
         </p>
-        <hr align="left" width="36%" />
-        <p>
-          <button>Submit</button>
-        </p>
       </form>
+      <p>
+        <button>Submit</button>
+      </p>
     </section>
+    <hr />
   </body>
 </html>
