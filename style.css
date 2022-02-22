@@ -5,6 +5,7 @@ body {
     font-size: 16px;
 }
 
+
 h2 {
     text-align: center;
     list-style: none;
@@ -19,19 +20,25 @@ h2 {
 @media (max-width: 720px) {
     .text1 li{
         font-size: 12px;
+        margin: 5px;
     }
     .text1 ol li{
         font-size: 12px;
+         margin: 5px;
     }
 
     .text2 li{
         font-size: 12px;
+         margin: 5px;
     }
     .text2 h3, h4{
         font-size: 16px;
     }
     .form{
         font-size: 12px;
+    }
+    h3, h4 {
+        text-align: center;
     }
     
 }
@@ -58,5 +65,6 @@ h2 {
   align-items: center;
 }
 
-
-
+section li{
+    margin: 10px;
+}
