@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+    list-style: none;
+}
+
+
+.validation, .plan{
+    text-align: center;
+    
+}
+
+@media (max-width: 720px) {
+    .text1 li{
+        font-size: 12px;
+    }
+    .text1 ol li{
+        font-size: 12px;
+    }
+
+    .text2 li{
+        font-size: 12px;
+    }
+    .text2 h3, h4{
+        font-size: 16px;
+    }
+    .form{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 720px) {
+    .form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+}
+
+
+.login p  {
+    text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
