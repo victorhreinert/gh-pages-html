@@ -16,7 +16,7 @@ h2 {
     
 }
 
-@media (max-width: 500px) {
+@media (max-width: 720px) {
     .text1 li{
         font-size: 12px;
     }
@@ -30,19 +30,19 @@ h2 {
     .text2 h3, h4{
         font-size: 16px;
     }
+    .form{
+        font-size: 12px;
+    }
     
 }
-@media (max-width: 500px) {
+
+@media (max-width: 720px) {
     .form {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.form {
-    display: flex;
-    
+    align-items: center;
+    flex-direction: column;
 }
 
 }
@@ -51,5 +51,12 @@ h2 {
 .login p  {
     text-align: center;
 }
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 
